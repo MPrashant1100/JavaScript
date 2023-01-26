@@ -67,7 +67,7 @@ function newCard() {
     }
 */
 /*
-    Call/Invoke one function to other 
+//  Call/Invoke one function to other 
 
     let player1Time = 100
     let player2Time = 121
@@ -77,9 +77,21 @@ function newCard() {
     }
     let RaceTime = totalRaceTime()
     console.log(RaceTime)
+
+//  Random Practice by making a dice 
+
+    let randomNumber = Math.floor( Math.random() * 6) + 1
+    console.log(randomNumber)
+
+    function rollDice() {
+        return Math.floor( Math.random() * 6) + 1
+    }
+    console.log(rollDice())
 */
 
+
 /*
+
 // Practice if-else
 
     let age = 102
