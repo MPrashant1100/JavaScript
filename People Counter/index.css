@@ -22,7 +22,7 @@ h2 {
     margin-bottom: 20px;
 
 }
-.increment-button {
+.increment-button, .decrement-button {
     width: 150px;
     height: 40px;
     background-color: rgb(173, 12, 12);
