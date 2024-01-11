@@ -29,6 +29,11 @@ app.get('/api/jokes', (req,res) => {
             id: 4,
             title:'This is joke 4',
             content: 'Amazing',
+        },
+        {
+            id: 5,
+            title:'This is joke 5',
+            content: 'Great',
         }
     ]
     res.send(jokes)
